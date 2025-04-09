@@ -12,13 +12,3 @@ public class RoverTests
         Assert.That(rover.Direction, Is.EqualTo(expectedDirection));
     }
 }
-
-public class Rover
-{
-    public string Direction { get; }
-
-    public Rover(string direction)
-    {
-        Direction = direction;
-    }
-}
